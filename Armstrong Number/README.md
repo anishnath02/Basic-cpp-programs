@@ -33,8 +33,8 @@ g++ armstrongnumber.cpp -o armstrongnumber
 
 ```
 Enter a positive integer when prompted.
+- Example Output
 ```
-Example Output
 Enter a number: 153
 153 is an Armstrong number.
 
@@ -46,8 +46,8 @@ Enter a number: 123
 ```
 ### Notes & Possible Enhancements
 
-This implementation uses an integer power function to avoid floating point inaccuracies from pow() in <cmath>.
+* This implementation uses an integer power function to avoid floating point inaccuracies from pow() in <cmath>.
 
-For very large numbers, long long may overflow; if you need to handle huge integers, consider using big-integer libraries (e.g., Boost.Multiprecision).
+* For very large numbers, long long may overflow; if you need to handle huge integers, consider using big-integer libraries (e.g., Boost.Multiprecision).
 
-You can add a mode to list all Armstrong numbers in a range — that’s a nice extra challenge for the repo.
+* You can add a mode to list all Armstrong numbers in a range — that’s a nice extra challenge for the repo.
