@@ -116,6 +116,7 @@ This ensures each element is added and removed at most once.
 ### Example
 
 **Input:**
+
 n = 5, k = 5
 arr = [1, 2, 1, 1, 1]
 
@@ -123,5 +124,7 @@ arr = [1, 2, 1, 1, 1]
 - Window `[1, 2, 1, 1]` → sum = 5 → length = 4
 
 **Output:**
+
 4
+
 
