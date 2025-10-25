@@ -1,0 +1,18 @@
+// Added by: Banisha — Hacktoberfest 2025
+// File: Basic-cpp-programs/banisha/sum_of_array.cpp
+// Description: Calculates sum of elements in an integer array.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[] = {2, 4, 6, 8, 10};  // You can change the array values
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int sum = 0;
+
+    for (int i = 0; i < n; i++)
+        sum += arr[i];
+
+    cout << "Sum of array elements = " << sum << endl;
+    return 0;
+}
